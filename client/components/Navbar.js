@@ -32,8 +32,8 @@ const Navbar = () => {
                     <a className='p-3 text-white text-2xl font-extralight hover:font-semibold'>Events</a>
                 </Link> */}
 
-                <Link href="/supportme">
-                    <a className='p-3 text-white text-2xl font-extralight hover:text-color-salmon'>Donate</a>
+                <Link href="/give">
+                    <a className='p-3 text-white text-2xl font-extralight hover:text-color-salmon'>Give</a>
                 </Link>
             </div>
 

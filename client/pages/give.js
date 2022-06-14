@@ -1,14 +1,15 @@
-import Sponsor from "../components/Sponsor";
+import Donation from "../components/Donation";
 
 
-const SupportMe = () => {
+
+const Give = () => {
     return (
         <div className="space-y-14 lg:space-y-24">
             <main className="max-w-4xl mx-auto mt-16 antialiased">
-                <Sponsor/>
+                <Donation/>
             </main>
         </div>
     )
 }
 
-export default SupportMe
+export default Give
