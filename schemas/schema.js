@@ -6,7 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // We import object and document schema 
 import event from './event'
-import eventImage from './eventImage'
+// import eventImage from './eventImage'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -17,7 +17,7 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     event,
-    eventImage,
+    // eventImage,
   ]),
 })
 

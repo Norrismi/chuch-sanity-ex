@@ -32,7 +32,7 @@ const Donation = () => {
 
     return (
 
-        <div className="lg:space-x-5  lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col text-left lg:text-left">
+        <div className="lg:space-x-5 bg-slate-600 min-h-screen  lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col text-left lg:text-left">
             <div className="mr-5">
                 <h1 className="text-2xl  lg:text-5xl">
                     Give

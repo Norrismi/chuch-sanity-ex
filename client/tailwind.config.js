@@ -9,16 +9,16 @@ module.exports = {
         color:{
           grey: 'var(--grey)',
           navy: 'var(--navy)',
-          green: 'var(--green)',
           salmon: 'var(--salmon)',
+          khaki: 'var(--khaki)',
         }
       },
       backgroundColor:{
         color:{
           grey: 'var(--grey)',
           navy: 'var(--navy)',
-          green: 'var(--green)',
           salmon: 'var(--salmon)',
+       
         }
       }
     },
