@@ -22,15 +22,15 @@ const Navbar = () => {
 
             </div>
 
-            <div classname=''>
+            <div className=''>
 
                 <Link href="/">
                     <a className='p-3 text-white text-2xl font-extralight hover:text-color-salmon'>Home</a>
                 </Link>
 
-                {/* <Link href="/events">
+                <Link href="/events">
                     <a className='p-3 text-white text-2xl font-extralight hover:font-semibold'>Events</a>
-                </Link> */}
+                </Link>
 
                 <Link href="/give">
                     <a className='p-3 text-white text-2xl font-extralight hover:text-color-salmon'>Give</a>

@@ -25,14 +25,23 @@ export default {
             }
         },
         {
-            title: 'Event Picture',
-            name: 'picture',
+            title: 'Main Image',
+            name: 'mainImage',
             type: 'image',
             options: {
-                hotspot: true // <-- Defaults to false
+                hotspot: true,
             },
-
         },
+        // {
+        //     title: 'Event Picture',
+        //     name: 'picture',
+        //     type: 'array',
+        //     of: [{type: 'eventImage'}],
+        //     options: {
+        //         hotspot: true 
+        //     },
+
+        // },
         {
             title: 'slug',
             name: 'slug',

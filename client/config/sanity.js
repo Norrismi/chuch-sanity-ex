@@ -1,4 +1,7 @@
-import { createClient, createImageUrlBuilder } from "next-sanity"
+import createClient from '@sanity/client';
+import createImageUrlBuilder from '@sanity/image-url'
+
+
 
 const config = {
   /**
@@ -22,6 +25,8 @@ const config = {
  * Set up a helper function for generating Image URLs with only the asset reference data in your documents.
  * Read more: https://www.sanity.io/docs/image-url
  **/
+
+
 export const urlFor = (source) => createImageUrlBuilder(config).image(source)
 
 // Set up the client for fetching data in the getProps page functions
